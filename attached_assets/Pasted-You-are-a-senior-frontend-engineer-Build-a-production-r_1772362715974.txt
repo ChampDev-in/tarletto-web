@@ -1,0 +1,144 @@
+You are a senior frontend engineer.
+
+Build a production-ready, static consulting firm website for **Tarletto** using React (Vite preferred).  
+The website must be clean, professional, high-trust, and easy to deploy on Vercel.
+
+====================================================
+CORE REQUIREMENTS
+====================================================
+1. 100% static frontend-only web app.
+2. No backend servers.
+3. No paid services or subscriptions.
+4. Must be deployable on Vercel without changes.
+5. Dark, modern, premium consulting theme.
+6. Remove ALL Replit branding (no “Made with Replit”).
+7. Do NOT expose any email address in UI or page source.
+
+====================================================
+BRAND DETAILS
+====================================================
+Company Name: Tarletto  
+Industry: Technology & Consulting  
+Tone: Trustworthy, minimal, confident, honest  
+NO fake claims, NO fake testimonials, NO fake clients.
+
+====================================================
+SITE STRUCTURE (MANDATORY)
+====================================================
+1. Sticky Navbar
+   - Logo text: Tarletto
+   - Home
+   - Services
+   - About
+   - Contact (primary CTA button)
+
+2. Hero Section
+   - Headline focused on solving business & technical problems
+   - Subheading emphasizing clarity, execution, and consulting expertise
+   - Primary CTA → “Contact Us”
+
+3. Services Section
+   - 3–4 service cards (generic but professional):
+     - Technology Consulting
+     - Product & MVP Development
+     - System Architecture & Scalability
+     - Engineering Advisory
+   - Icons or minimal visuals
+
+4. About Section
+   - Honest explanation of Tarletto’s approach
+   - Focus on quality, clarity, and long-term value
+   - Explicitly avoid:
+     - Testimonials
+     - Client logos
+     - Revenue numbers
+     - Years of experience claims
+
+5. Contact Section (CRITICAL)
+   Form fields:
+   - Full Name (required)
+   - Contact Number (required)
+   - Email Address (required)
+   - Project Description (required textarea)
+   - Submit button
+
+====================================================
+CONTACT FORM FUNCTIONALITY
+====================================================
+Goal: When a user submits the form, the message must be delivered to my email WITHOUT exposing it publicly.
+
+Target email (DO NOT HARD-CODE OR DISPLAY):
+siddhant@tarletto.com
+
+Rules:
+- Use a FREE, lifetime service only.
+- No paid messaging tools.
+- No backend.
+- Allowed options:
+  - EmailJS (free tier)
+  - OR FormSubmit
+  - OR Web3Forms
+- Use environment variables (VITE_ or REACT_APP_) for keys and email routing.
+- Add:
+  - Client-side validation
+  - Loading state
+  - Success message
+  - Error message
+
+====================================================
+DESIGN REQUIREMENTS
+====================================================
+- Dark theme (black / charcoal background)
+- Accent color: choose ONE (purple / blue / teal)
+- Smooth hover animations
+- Clean typography (modern sans-serif)
+- Mobile-first, fully responsive
+- Subtle transitions (no flashy animations)
+
+====================================================
+TECH STACK
+====================================================
+- React + Vite
+- Functional components
+- React Hooks
+- CSS Modules or Tailwind CSS (choose one)
+- Clean folder structure
+- Well-commented, readable code
+
+====================================================
+DEPLOYMENT REQUIREMENTS
+====================================================
+- package.json must include:
+  - dev
+  - build
+  - preview
+- No Replit-specific files:
+  - No .replit
+  - No replit.nix
+- Include vercel.json rewrite if SPA routing is used
+- App must work with:
+  npm install
+  npm run dev
+  npm run build
+
+====================================================
+DELIVERABLES
+====================================================
+1. Complete working React project
+2. README.md including:
+   - How to run locally
+   - How to deploy on Vercel
+   - How to configure environment variables for contact form
+3. Clean, production-ready UI
+
+====================================================
+DO NOT
+====================================================
+- Add fake testimonials
+- Add fake clients
+- Add fake metrics
+- Expose email address anywhere
+- Add paid services
+- Add Replit branding
+
+Start building the full Tarletto consulting website now.
