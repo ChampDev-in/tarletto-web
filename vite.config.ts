@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => {
 
     // Project structure
     root: path.resolve(__dirname, "client"),
+    envDir: path.resolve(__dirname),
 
     resolve: {
       alias: {
